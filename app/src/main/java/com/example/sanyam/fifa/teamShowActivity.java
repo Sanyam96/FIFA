@@ -59,6 +59,7 @@ public class teamShowActivity extends AppCompatActivity {
         adapter = new perTeamDataAdapter(this, data);
         mTeamListView.setAdapter(adapter);
         mTeamListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            // TODO
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
